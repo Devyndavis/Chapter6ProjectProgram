@@ -1,3 +1,21 @@
+// This program analyzes weekly running data for five marathon runners, calculating total and average miles run.
+
+/*
+ * Program: Marathon Runners Data Analysis
+ * Description:
+ * This program analyzes the running data of five marathon runners: Jason, Samantha, Ravi, Sheila, and Ankit.
+ * Each runner records the number of miles they run each day for a week. 
+ * The program uses a struct to store the runner's name, the miles run each day, the total miles run in the week, 
+ * and the average miles run per day. It reads the data from an input file named "runner.txt",
+ * calculates the total and average miles for each runner, and displays the results in a formatted table.
+ *
+ * The output includes:
+ * - Runner's name
+ * - Miles run for each day of the week
+ * - Total miles run for the week
+ * - Average miles run per day
+ */
+
 #include <iostream>
 #include <fstream>
 #include <iomanip>
